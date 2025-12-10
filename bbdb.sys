@@ -1,0 +1,4 @@
+;;; ~/comp/shed/bbdb/bbdb.sys --- Bbdb Sytem Definitions
+(defsys :bbdb
+ :require (:std :log)
+ :components ("pkg"))
