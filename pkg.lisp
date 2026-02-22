@@ -10,7 +10,6 @@
   (:export :*bbdb-packages*))
 
 (in-package :bbdb-int)
-
 (defparameter *bbdb-packages* nil)
 (setq *defpkg-hook* (lambda (x) (pushnew (package-name x) *bbdb-packages* :test 'string=)))
 
